@@ -1,0 +1,86 @@
+:root {
+  --light-text: #4f4ff2;
+  --dark-color: black;
+  --background: rgb(115, 112, 112);
+}
+
+header {
+  display: flex;
+  background-color: var(--background);
+  justify-content: space-between;
+}
+
+.timer {
+  color: var(--light-text);
+  padding-right: 20px;
+}
+
+.quiz {
+  text-align: center;
+}
+
+#start-btn {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#start-btn:hover {
+  background-color: #0056b3;
+}
+
+.question-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.answer {
+  font-size: 18px;
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.answer:hover {
+  background-color: #ccc;
+}
+
+.score-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  font-size: 16px;
+  padding: 5px;
+  margin: 5px;
+}
+
+#save-btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#save-btn:hover {
+  background-color: #218838;
+}

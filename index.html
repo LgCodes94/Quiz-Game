@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Quiz-Game</title>
+</head>
+
+<body>
+  <header>
+    <h1>Test your knowledge</h1>
+    <h1 class="timer">Time: <span id="countdown">60</span></h1>
+  </header>
+  <div class="quiz">
+    <h1>Coding Quiz</h1>
+  </div>
+  <button id="start-btn">Start</button>
+  </div>
+  <div class="question-container">
+    <h2 id="question">Question goes here</h2>
+    <div class="options">
+      <button class="answer" data-answer="a">A.</button>
+      <button class="answer" data-answer="b">B.</button>
+      <button class="answer" data-answer="c">C.</button>
+      <button class="answer" data-answer="d">D.</button>
+    </div>
+  </div>
+  <div class="high-scores-container" style="display: none;">
+    <h2>High Scores</h2>
+    <ul id="high-scores-list"></ul>
+    <button id="clear-scores-btn">Clear Scores</button>
+  </div>
+  <div class="score-container">
+    <h2>Your Score: <span id="score">0</span></h2>
+    <input type="text" id="initials" placeholder="Enter your initials">
+    <button id="save-btn">Save</button>
+  </div>
+  <script src="./assets/js.js"></script>
+</body>
+
+</html>
